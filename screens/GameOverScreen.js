@@ -1,6 +1,6 @@
 import { Button, StyleSheet, Text, View } from "react-native";
 import Card from "../components/Card";
-import { NumberContainer } from '../components/NumberContainer';
+import NumberContainer from '../components/NumberContainer';
 
 function GameOverScreen({ rounds, onGameRestart, number }) {
     return (
